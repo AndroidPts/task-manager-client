@@ -17,23 +17,25 @@
 | /statistics | Статистика продуктивности |
 | /profile | Настройки профиля |
 
-## Запуск проекта
+## Запуск
 
 \`\`\`bash
 npm install
 npm start
 \`\`\`
 
-Приложение откроется на http://localhost:3000
+## Переменные окружения
 
-## Сборка
+Создайте файл `.env`:
 
-\`\`\`bash
-npm run build
+\`\`\`
+REACT_APP_API_URL=http://localhost:5000/api
 \`\`\`
 
 ## Связь с сервером
 
 Серверная часть: [task-manager-server](https://github.com/AndroidPts/task-manager-server)
 
-API-запросы настроены через Axios с автоматической подстановкой JWT-токена.
+## Автор
+
+Прасолов Захар, группа ИС21
