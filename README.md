@@ -37,3 +37,9 @@ npm run build
 Серверная часть: [task-manager-server](https://github.com/AndroidPts/task-manager-server)
 
 API-запросы настроены через Axios с автоматической подстановкой JWT-токена.
+
+
+## Связанные репозитории
+
+- [Серверная часть](https://github.com/AndroidPts/task-manager-server)
+- [База данных](https://github.com/AndroidPts/task-manager-database)
